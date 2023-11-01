@@ -14,7 +14,7 @@ function ProductList() {
           <div key={product.id} className="bg-white p-4 shadow-md rounded">
             <h2 className="text-lg font-semibold">{product.name}</h2>
             <p className="text-gray-700">${product.price.toFixed(2)}</p>
-            <button className="bg-blue-500 text-white p-2 mt-2 rounded">Add to Cart</button>
+            <button className="bg-blue-500 text-white p-2 mt-2 rounded">Add to Cart.</button>
           </div>
         ))}
       </div>
